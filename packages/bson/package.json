@@ -24,12 +24,12 @@
   "author": "Marc J. Schmidt <marc@marcjschmidt.de>",
   "license": "MIT",
   "peerDependencies": {
-    "@deepkit/core": "^1.0.1",
-    "@deepkit/type": "^1.0.1"
+    "@deepkit/core": "workspace:*",
+    "@deepkit/type": "workspace:*"
   },
   "devDependencies": {
-    "@deepkit/core": "^1.0.5",
-    "@deepkit/type": "^1.0.12",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/type": "workspace:*",
     "@types/bson": "^4.0.3",
     "@types/node": "^22.13.1",
     "bson": "^4.4.0"

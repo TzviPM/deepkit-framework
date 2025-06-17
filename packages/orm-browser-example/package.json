@@ -13,13 +13,13 @@
   "author": "Marc J. Schmidt <marc@marcjschmidt.de>",
   "license": "MIT",
   "dependencies": {
-    "@deepkit/mongo": "^1.0.1",
-    "@deepkit/orm-browser": "^1.0.1",
-    "@deepkit/mysql": "^1.0.1",
-    "@deepkit/orm": "^1.0.1",
-    "@deepkit/postgres": "^1.0.1",
-    "@deepkit/sqlite": "^1.0.1",
-    "@deepkit/type": "^1.0.1"
+    "@deepkit/mongo": "workspace:*",
+    "@deepkit/orm-browser": "workspace:*",
+    "@deepkit/mysql": "workspace:*",
+    "@deepkit/orm": "workspace:*",
+    "@deepkit/postgres": "workspace:*",
+    "@deepkit/sqlite": "workspace:*",
+    "@deepkit/type": "workspace:*"
   },
   "devDependencies": {
     "reflect-metadata": "^0.1.13"

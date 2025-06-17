@@ -23,20 +23,20 @@
     "build": "echo '{\"type\": \"module\"}' > ./dist/esm/package.json"
   },
   "peerDependencies": {
-    "@deepkit/bson": "^1.0.1",
-    "@deepkit/core": "^1.0.1",
-    "@deepkit/injector": "^1.0.1",
-    "@deepkit/logger": "^1.0.1",
-    "@deepkit/rpc": "^1.0.1",
-    "@deepkit/type": "^1.0.1"
+    "@deepkit/bson": "workspace:*",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/injector": "workspace:*",
+    "@deepkit/logger": "workspace:*",
+    "@deepkit/rpc": "workspace:*",
+    "@deepkit/type": "workspace:*"
   },
   "devDependencies": {
-    "@deepkit/bson": "^1.0.12",
-    "@deepkit/core": "^1.0.5",
-    "@deepkit/injector": "^1.0.12",
-    "@deepkit/logger": "^1.0.12",
-    "@deepkit/rpc": "^1.0.12",
-    "@deepkit/type": "^1.0.12"
+    "@deepkit/bson": "workspace:*",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/injector": "workspace:*",
+    "@deepkit/logger": "workspace:*",
+    "@deepkit/rpc": "workspace:*",
+    "@deepkit/type": "workspace:*"
   },
   "jest": {
     "testEnvironment": "node",

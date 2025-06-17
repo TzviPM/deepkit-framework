@@ -55,10 +55,10 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@deepkit/core": "^1.0.1",
-    "@deepkit/core-rxjs": "^1.0.1",
-    "@deepkit/event": "^1.0.1",
-    "@deepkit/type": "^1.0.1"
+    "@deepkit/core": "workspace:*",
+    "@deepkit/core-rxjs": "workspace:*",
+    "@deepkit/event": "workspace:*",
+    "@deepkit/type": "workspace:*"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.1.6",
@@ -73,10 +73,10 @@
     "@angular/platform-browser": "^19.1.5",
     "@angular/platform-browser-dynamic": "^19.1.5",
     "@angular/router": "^19.1.5",
-    "@deepkit/core": "^1.0.5",
-    "@deepkit/core-rxjs": "^1.0.9",
-    "@deepkit/event": "^1.0.12",
-    "@deepkit/type": "^1.0.12",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/core-rxjs": "workspace:*",
+    "@deepkit/event": "workspace:*",
+    "@deepkit/type": "workspace:*",
     "@types/fs-extra": "^8.0.1",
     "@types/node": "^22.13.1",
     "fs-extra": "^8.1.0",

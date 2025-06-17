@@ -24,13 +24,13 @@
     "install": "rm -rf node_modules/typescript || exit 0"
   },
   "peerDependencies": {
-    "@deepkit/type-compiler": "^1.0.1"
+    "@deepkit/type-compiler": "workspace:*"
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.0.2"
   },
   "devDependencies": {
-    "@deepkit/type-compiler": "^1.0.8",
+    "@deepkit/type-compiler": "workspace:*",
     "vite": "^6.1.0"
   },
   "jest": {
