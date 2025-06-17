@@ -1,0 +1,6 @@
+packages:
+  - website
+  - packages/*
+  - '!packages/fs'
+  - '!packages/orm-browser-example'
+  - '!packages/framework-examples'

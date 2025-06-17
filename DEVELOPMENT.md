@@ -15,14 +15,17 @@ Node >= v20 is needed.
 ```shell
 git clone https://github.com/deepkit/deepkit-framework.git
 cd deepkit-framework
-yarn
+pnpm install
 ```
 
 Make sure the compiler is built first and injected to node_modules:
 
 ```shell
-npm run postinstall
+pnpm run postinstall
 ```
+
+If you executed `pnpm install --ignore-scripts`, run the above command manually
+to inject the compiler transformer.
 
 When installation is finished you can build the packages:
 
