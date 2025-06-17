@@ -17,10 +17,10 @@
     "deepkit-app": "dist/cjs/main.js"
   },
   "dependencies": {
-    "@deepkit/app": "^1.0.12",
-    "@deepkit/core": "^1.0.5",
-    "@deepkit/logger": "^1.0.12",
-    "@deepkit/type": "^1.0.12",
+    "@deepkit/app": "workspace:*",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/logger": "workspace:*",
+    "@deepkit/type": "workspace:*",
     "fs-extra": "^9.1.0"
   },
   "devDependencies": {

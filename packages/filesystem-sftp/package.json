@@ -23,8 +23,8 @@
     "build": "echo '{\"type\": \"module\"}' > ./dist/esm/package.json"
   },
   "dependencies": {
-    "@deepkit/core": "^1.0.5",
-    "@deepkit/filesystem": "^1.0.5",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/filesystem": "workspace:*",
     "ssh2-sftp-client": "^9.1.0"
   },
   "devDependencies": {

@@ -23,30 +23,30 @@
     "build": "echo '{\"type\": \"module\"}' > ./dist/esm/package.json"
   },
   "peerDependencies": {
-    "@deepkit/app": "^1.0.1",
-    "@deepkit/broker": "^1.0.1",
-    "@deepkit/bson": "^1.0.1",
-    "@deepkit/core": "^1.0.1",
-    "@deepkit/http": "^1.0.1",
-    "@deepkit/injector": "^1.0.1",
-    "@deepkit/logger": "^1.0.1",
-    "@deepkit/rpc": "^1.0.1",
-    "@deepkit/type": "^1.0.1"
+    "@deepkit/app": "workspace:*",
+    "@deepkit/broker": "workspace:*",
+    "@deepkit/bson": "workspace:*",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/http": "workspace:*",
+    "@deepkit/injector": "workspace:*",
+    "@deepkit/logger": "workspace:*",
+    "@deepkit/rpc": "workspace:*",
+    "@deepkit/type": "workspace:*"
   },
   "dependencies": {
-    "@deepkit/api-console-api": "^1.0.12",
-    "@deepkit/api-console-gui": "^1.0.12"
+    "@deepkit/api-console-api": "workspace:*",
+    "@deepkit/api-console-gui": "workspace:*"
   },
   "devDependencies": {
-    "@deepkit/app": "^1.0.12",
-    "@deepkit/broker": "^1.0.12",
-    "@deepkit/bson": "^1.0.12",
-    "@deepkit/core": "^1.0.5",
-    "@deepkit/http": "^1.0.12",
-    "@deepkit/injector": "^1.0.12",
-    "@deepkit/logger": "^1.0.12",
-    "@deepkit/rpc": "^1.0.12",
-    "@deepkit/type": "^1.0.12",
+    "@deepkit/app": "workspace:*",
+    "@deepkit/broker": "workspace:*",
+    "@deepkit/bson": "workspace:*",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/http": "workspace:*",
+    "@deepkit/injector": "workspace:*",
+    "@deepkit/logger": "workspace:*",
+    "@deepkit/rpc": "workspace:*",
+    "@deepkit/type": "workspace:*",
     "rxjs": "~7.8.0"
   },
   "jest": {

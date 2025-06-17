@@ -25,13 +25,13 @@
   },
   "peerDependencies": {
     "@angular/ssr": "^19.1.6",
-    "@deepkit/app": "^1.0.1",
-    "@deepkit/http": "^1.0.1"
+    "@deepkit/app": "workspace:*",
+    "@deepkit/http": "workspace:*"
   },
   "devDependencies": {
     "@angular/ssr": "^19.1.7",
-    "@deepkit/app": "^1.0.12",
-    "@deepkit/http": "^1.0.12"
+    "@deepkit/app": "workspace:*",
+    "@deepkit/http": "workspace:*"
   },
   "jest": {
     "transform": {

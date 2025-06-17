@@ -15,7 +15,7 @@ importers:
         specifier: ^18.4.4
         version: 18.6.1(lerna@7.4.2)
       '@deepkit/core':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:packages/core
       '@jest/globals':
         specifier: ^29.2.1
@@ -78,31 +78,31 @@ importers:
         specifier: ^19.1.7
         version: 19.2.15(@angular/common@19.2.14)(@angular/core@19.2.14)(@angular/platform-server@19.2.14)(@angular/router@19.2.14)
       '@deepkit/app':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../app
       '@deepkit/http':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../http
 
   packages/api-console-api:
     devDependencies:
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
 
   packages/api-console-gui:
@@ -144,43 +144,43 @@ importers:
         specifier: ^19.1.5
         version: 19.2.14(@angular/common@19.2.14)(@angular/core@19.2.14)(@angular/platform-browser@19.2.14)(rxjs@7.8.2)
       '@deepkit/api-console-api':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../api-console-api
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.9
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/desktop-ui':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../desktop-ui
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@deepkit/type-compiler':
-        specifier: ^1.0.8
+        specifier: workspace:*
         version: link:../type-compiler
       '@deepkit/ui-library':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../ui-library
       '@types/jasmine':
         specifier: ~4.3.0
@@ -234,38 +234,38 @@ importers:
   packages/api-console-module:
     dependencies:
       '@deepkit/api-console-api':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../api-console-api
       '@deepkit/api-console-gui':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../api-console-gui
     devDependencies:
       '@deepkit/app':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../app
       '@deepkit/broker':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../broker
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/http':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../http
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       rxjs:
         specifier: ~7.8.0
@@ -274,25 +274,25 @@ importers:
   packages/app:
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@deepkit/workflow':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../workflow
       conditional-type-checks:
         specifier: ^1.0.5
@@ -310,25 +310,25 @@ importers:
         version: 3.0.1
     devDependencies:
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.9
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       rxjs:
         specifier: '*'
@@ -337,10 +337,10 @@ importers:
   packages/bson:
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@types/bson':
         specifier: ^4.0.3
@@ -359,7 +359,7 @@ importers:
         version: 5.7.3
     devDependencies:
       '@deepkit/type-compiler':
-        specifier: ^1.0.8
+        specifier: workspace:*
         version: link:../type-compiler
       bun-types:
         specifier: ^1.2.2
@@ -375,7 +375,7 @@ importers:
         version: 3.0.1
     devDependencies:
       '@deepkit/bench':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../bench
       '@types/dot-prop':
         specifier: ~4.2.0
@@ -384,7 +384,7 @@ importers:
   packages/core-rxjs:
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       rxjs:
         specifier: ~7.8.0
@@ -393,16 +393,16 @@ importers:
   packages/create-app:
     dependencies:
       '@deepkit/app':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../app
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       fs-extra:
         specifier: ^9.1.0
@@ -467,16 +467,16 @@ importers:
         specifier: ^19.1.5
         version: 19.2.14(@angular/common@19.2.14)(@angular/core@19.2.14)(@angular/platform-browser@19.2.14)(rxjs@7.8.2)
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.9
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@types/fs-extra':
         specifier: ^8.0.1
@@ -554,40 +554,40 @@ importers:
         specifier: ^19.1.5
         version: 19.2.14(@angular/common@19.2.14)(@angular/core@19.2.14)(@angular/platform-browser@19.2.14)(rxjs@7.8.2)
       '@deepkit/bson':
-        specifier: ^1.0.2
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/desktop-ui':
-        specifier: ^1.0.2
+        specifier: workspace:*
         version: link:../desktop-ui
       '@deepkit/event':
-        specifier: ^1.0.2
+        specifier: workspace:*
         version: link:../event
       '@deepkit/injector':
-        specifier: ^1.0.2
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.2
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/rpc':
-        specifier: ^1.0.2
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/stopwatch':
-        specifier: ^1.0.2
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.2
+        specifier: workspace:*
         version: link:../type
       '@deepkit/type-compiler':
-        specifier: ^1.0.2
+        specifier: workspace:*
         version: link:../type-compiler
       '@deepkit/ui-library':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../ui-library
       '@types/jasmine':
         specifier: ~4.3.0
@@ -635,85 +635,85 @@ importers:
   packages/event:
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
 
   packages/example-app:
     dependencies:
       '@deepkit/api-console-module':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../api-console-module
       '@deepkit/app':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../app
       '@deepkit/broker':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../broker
       '@deepkit/bson':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/event':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../event
       '@deepkit/filesystem':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../filesystem
       '@deepkit/framework':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../framework
       '@deepkit/http':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../http
       '@deepkit/injector':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/mongo':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../mongo
       '@deepkit/orm':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/orm-browser':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../orm-browser
       '@deepkit/rpc':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/rpc-tcp':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../rpc-tcp
       '@deepkit/sql':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../sql
       '@deepkit/sqlite':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../sqlite
       '@deepkit/stopwatch':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/template':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../template
       '@deepkit/type':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../type
       '@deepkit/workflow':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../workflow
       compression:
         specifier: ^1.7.4
@@ -731,7 +731,7 @@ importers:
   packages/filesystem:
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
 
   packages/filesystem-aws-s3:
@@ -740,19 +740,19 @@ importers:
         specifier: ^3.0.0
         version: 3.830.0
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/filesystem':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../filesystem
 
   packages/filesystem-ftp:
     dependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/filesystem':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../filesystem
       basic-ftp:
         specifier: ^5.0.3
@@ -761,10 +761,10 @@ importers:
   packages/filesystem-google:
     dependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/filesystem':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../filesystem
       '@google-cloud/storage':
         specifier: ^7.15.1
@@ -783,10 +783,10 @@ importers:
   packages/filesystem-sftp:
     dependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/filesystem':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../filesystem
       ssh2-sftp-client:
         specifier: ^9.1.0
@@ -799,19 +799,19 @@ importers:
   packages/framework:
     dependencies:
       '@deepkit/api-console-module':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../api-console-module
       '@deepkit/framework-debug-api':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../framework-debug-api
       '@deepkit/framework-debug-gui':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../framework-debug-gui
       '@deepkit/orm-browser-api':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm-browser-api
       '@deepkit/orm-browser-gui':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm-browser-gui
       '@types/ws':
         specifier: ^7.4.0
@@ -857,58 +857,58 @@ importers:
         version: 7.5.10
     devDependencies:
       '@deepkit/app':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../app
       '@deepkit/broker':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../broker
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.9
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/filesystem':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../filesystem
       '@deepkit/http':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../http
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/orm':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/rpc-tcp':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc-tcp
       '@deepkit/sql':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../sql
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/template':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../template
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@deepkit/workflow':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../workflow
       '@types/clone':
         specifier: ^0.1.30
@@ -932,28 +932,28 @@ importers:
   packages/framework-debug-api:
     devDependencies:
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.9
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       rxjs:
         specifier: ~7.8.0
@@ -998,58 +998,58 @@ importers:
         specifier: ^19.1.5
         version: 19.2.14(@angular/common@19.2.14)(@angular/core@19.2.14)(@angular/platform-browser@19.2.14)(rxjs@7.8.2)
       '@deepkit/api-console-api':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../api-console-api
       '@deepkit/api-console-gui':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../api-console-gui
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.9
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/desktop-ui':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../desktop-ui
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/framework-debug-api':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../framework-debug-api
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/orm':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/orm-browser-api':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm-browser-api
       '@deepkit/orm-browser-gui':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm-browser-gui
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/topsort':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../topsort
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@deepkit/type-compiler':
-        specifier: ^1.0.8
+        specifier: workspace:*
         version: link:../type-compiler
       '@types/dagre':
         specifier: ^0.7.44
@@ -1124,61 +1124,61 @@ importers:
   packages/framework-integration:
     dependencies:
       '@deepkit/app':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../app
       '@deepkit/broker':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../broker
       '@deepkit/bson':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/event':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../event
       '@deepkit/filesystem':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../filesystem
       '@deepkit/framework':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../framework
       '@deepkit/http':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../http
       '@deepkit/injector':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/orm':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/rpc':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/rpc-tcp':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../rpc-tcp
       '@deepkit/sql':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../sql
       '@deepkit/sqlite':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../sqlite
       '@deepkit/stopwatch':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../type
       '@deepkit/workflow':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../workflow
       buffer:
         specifier: ^5.2.1
@@ -1225,31 +1225,31 @@ importers:
         version: 1.2.0
     devDependencies:
       '@deepkit/app':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../app
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/template':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../template
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@deepkit/workflow':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../workflow
       '@types/formidable':
         specifier: ^3.4.5
@@ -1264,13 +1264,13 @@ importers:
   packages/injector:
     devDependencies:
       '@deepkit/bench':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../bench
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       benchmark:
         specifier: ^2.1.4
@@ -1289,10 +1289,10 @@ importers:
         version: 1.0.5
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
 
   packages/mongo:
@@ -1302,19 +1302,19 @@ importers:
         version: 1.0.4
     devDependencies:
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/orm':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/orm-integration':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../orm-integration
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@types/mongodb':
         specifier: 3.5.25
@@ -1333,50 +1333,50 @@ importers:
         version: 3.4.2
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/orm':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/orm-integration':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../orm-integration
       '@deepkit/sql':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../sql
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
 
   packages/orm:
     dependencies:
       '@deepkit/topsort':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../topsort
       sift:
         specifier: ^7.0.1
         version: 7.0.1
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@types/sqlstring':
         specifier: ^2.2.1
@@ -1388,41 +1388,41 @@ importers:
   packages/orm-browser:
     dependencies:
       '@deepkit/orm-browser-gui':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm-browser-gui
     devDependencies:
       '@deepkit/app':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../app
       '@deepkit/broker':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../broker
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/framework':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../framework
       '@deepkit/http':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../http
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/orm':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@types/node':
         specifier: ^22.13.1
@@ -1434,13 +1434,13 @@ importers:
   packages/orm-browser-api:
     devDependencies:
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
 
   packages/orm-browser-gui:
@@ -1482,46 +1482,46 @@ importers:
         specifier: ^19.1.5
         version: 19.2.14(@angular/common@19.2.14)(@angular/core@19.2.14)(@angular/platform-browser@19.2.14)(rxjs@7.8.2)
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.9
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/desktop-ui':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../desktop-ui
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/orm':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/orm-browser-api':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm-browser-api
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/topsort':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../topsort
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@deepkit/type-compiler':
-        specifier: ^1.0.8
+        specifier: workspace:*
         version: link:../type-compiler
       '@types/dagre':
         specifier: ^0.7.44
@@ -1581,16 +1581,16 @@ importers:
   packages/orm-integration:
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core
       '@deepkit/orm':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/sql':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../sql
       '@deepkit/type':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../type
 
   packages/postgres:
@@ -1606,22 +1606,22 @@ importers:
         version: 2.3.3
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/orm':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/orm-integration':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../orm-integration
       '@deepkit/sql':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../sql
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@types/sqlstring':
         specifier: ^2.2.1
@@ -1634,22 +1634,22 @@ importers:
         version: 5.3.0
     devDependencies:
       '@deepkit/bson':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../bson
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.9
+        specifier: workspace:*
         version: link:../core-rxjs
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       '@types/dot-prop':
         specifier: ^5.0.1
@@ -1667,7 +1667,7 @@ importers:
   packages/rpc-tcp:
     dependencies:
       '@deepkit/core':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core
       '@types/ws':
         specifier: ^8.5.3
@@ -1677,7 +1677,7 @@ importers:
         version: 8.18.2
     devDependencies:
       '@deepkit/rpc':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../rpc
 
   packages/run:
@@ -1692,7 +1692,7 @@ importers:
   packages/skeleton:
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core
 
   packages/sql:
@@ -1714,25 +1714,25 @@ importers:
         version: 0.1.1
     devDependencies:
       '@deepkit/app':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../app
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/logger':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../logger
       '@deepkit/orm':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
 
   packages/sqlite:
@@ -1748,31 +1748,31 @@ importers:
         version: 0.1.1
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/orm':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../orm
       '@deepkit/orm-integration':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../orm-integration
       '@deepkit/sql':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../sql
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
 
   packages/stopwatch:
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
 
   packages/template:
@@ -1785,16 +1785,16 @@ importers:
         version: 2.22.0
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
 
   packages/topsort: {}
@@ -1802,7 +1802,7 @@ importers:
   packages/type:
     dependencies:
       '@deepkit/type-spec':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../type-spec
       '@types/uuid':
         specifier: ^8.3.0
@@ -1815,10 +1815,10 @@ importers:
         version: 8.3.2
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/type-compiler':
-        specifier: ^1.0.8
+        specifier: workspace:*
         version: link:../type-compiler
       '@types/lz-string':
         specifier: ^1.3.34
@@ -1848,10 +1848,10 @@ importers:
         specifier: ^19.1.5
         version: 19.2.14(@angular/animations@19.2.14)(@angular/common@19.2.14)(@angular/core@19.2.14)
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
       rxjs:
         specifier: '*'
@@ -1860,7 +1860,7 @@ importers:
   packages/type-compiler:
     dependencies:
       '@deepkit/type-spec':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../type-spec
       '@marcj/ts-clone-node':
         specifier: ^2.0.0
@@ -1909,16 +1909,16 @@ importers:
         specifier: ^19.1.5
         version: 19.2.14(rxjs@7.8.2)(zone.js@0.15.1)
       '@deepkit/core':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../core
       '@deepkit/desktop-ui':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../desktop-ui
       '@deepkit/rpc':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../rpc
       '@deepkit/type':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../type
       '@types/hammerjs':
         specifier: ^2.0.36
@@ -1940,7 +1940,7 @@ importers:
         version: 5.2.0(rollup@4.43.0)
     devDependencies:
       '@deepkit/type-compiler':
-        specifier: ^1.0.8
+        specifier: workspace:*
         version: link:../type-compiler
       vite:
         specifier: ^6.1.0
@@ -1949,19 +1949,19 @@ importers:
   packages/workflow:
     devDependencies:
       '@deepkit/core':
-        specifier: ^1.0.5
+        specifier: workspace:*
         version: link:../core
       '@deepkit/event':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../event
       '@deepkit/injector':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../injector
       '@deepkit/stopwatch':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../stopwatch
       '@deepkit/type':
-        specifier: ^1.0.12
+        specifier: workspace:*
         version: link:../type
 
   website:
@@ -1970,73 +1970,73 @@ importers:
         specifier: ^19.2.13
         version: 19.2.15(@angular/common@19.2.14)(@angular/core@19.2.14)(@angular/platform-server@19.2.14)(@angular/router@19.2.14)
       '@deepkit/angular-ssr':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/angular-ssr
       '@deepkit/app':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/app
       '@deepkit/broker':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/broker
       '@deepkit/bson':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/bson
       '@deepkit/core':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/core
       '@deepkit/core-rxjs':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/core-rxjs
       '@deepkit/desktop-ui':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/desktop-ui
       '@deepkit/event':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/event
       '@deepkit/filesystem':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/filesystem
       '@deepkit/framework':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/framework
       '@deepkit/http':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/http
       '@deepkit/injector':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/injector
       '@deepkit/logger':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/logger
       '@deepkit/mongo':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/mongo
       '@deepkit/orm':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/orm
       '@deepkit/postgres':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/postgres
       '@deepkit/rpc':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/rpc
       '@deepkit/rpc-tcp':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/rpc-tcp
       '@deepkit/sql':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/sql
       '@deepkit/stopwatch':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/stopwatch
       '@deepkit/template':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/template
       '@deepkit/type':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/type
       '@deepkit/workflow':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/workflow
       angular-plotly.js:
         specifier: ^5.2.2
@@ -2136,7 +2136,7 @@ importers:
         specifier: ^19.2.12
         version: 19.2.14(@angular/common@19.2.14)(@angular/core@19.2.14)(@angular/platform-browser@19.2.14)(rxjs@7.8.2)
       '@deepkit/type-compiler':
-        specifier: ^1.0.1
+        specifier: workspace:*
         version: link:../packages/type-compiler
       '@types/jest':
         specifier: ^29.5.5

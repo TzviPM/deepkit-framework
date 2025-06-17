@@ -24,24 +24,24 @@
   "author": "Marc J. Schmidt <marc@marcjschmidt.de>",
   "license": "MIT",
   "peerDependencies": {
-    "@deepkit/core": "^1.0.1",
-    "@deepkit/event": "^1.0.1",
-    "@deepkit/injector": "^1.0.1",
-    "@deepkit/logger": "^1.0.1",
-    "@deepkit/stopwatch": "^1.0.1",
-    "@deepkit/type": "^1.0.1"
+    "@deepkit/core": "workspace:*",
+    "@deepkit/event": "workspace:*",
+    "@deepkit/injector": "workspace:*",
+    "@deepkit/logger": "workspace:*",
+    "@deepkit/stopwatch": "workspace:*",
+    "@deepkit/type": "workspace:*"
   },
   "dependencies": {
-    "@deepkit/topsort": "^1.0.1",
+    "@deepkit/topsort": "workspace:*",
     "sift": "^7.0.1"
   },
   "devDependencies": {
-    "@deepkit/core": "^1.0.5",
-    "@deepkit/event": "^1.0.12",
-    "@deepkit/injector": "^1.0.12",
-    "@deepkit/logger": "^1.0.12",
-    "@deepkit/stopwatch": "^1.0.12",
-    "@deepkit/type": "^1.0.12",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/event": "workspace:*",
+    "@deepkit/injector": "workspace:*",
+    "@deepkit/logger": "workspace:*",
+    "@deepkit/stopwatch": "workspace:*",
+    "@deepkit/type": "workspace:*",
     "@types/sqlstring": "^2.2.1",
     "conditional-type-checks": "^1.0.5"
   },

@@ -28,10 +28,10 @@
     "build": "echo '{\"type\": \"module\"}' > ./dist/esm/package.json"
   },
   "peerDependencies": {
-    "@deepkit/core": "^1.0.1"
+    "@deepkit/core": "workspace:*"
   },
   "devDependencies": {
-    "@deepkit/core": "^1.0.5"
+    "@deepkit/core": "workspace:*"
   },
   "jest": {
     "testEnvironment": "node",

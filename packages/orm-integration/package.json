@@ -10,16 +10,16 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "peerDependencies": {
-    "@deepkit/core": "^1.0.1",
-    "@deepkit/orm": "^1.0.1",
-    "@deepkit/sql": "^1.0.1",
-    "@deepkit/type": "^1.0.1"
+    "@deepkit/core": "workspace:*",
+    "@deepkit/orm": "workspace:*",
+    "@deepkit/sql": "workspace:*",
+    "@deepkit/type": "workspace:*"
   },
   "devDependencies": {
-    "@deepkit/core": "^1.0.1",
-    "@deepkit/orm": "^1.0.1",
-    "@deepkit/sql": "^1.0.1",
-    "@deepkit/type": "^1.0.1"
+    "@deepkit/core": "workspace:*",
+    "@deepkit/orm": "workspace:*",
+    "@deepkit/sql": "workspace:*",
+    "@deepkit/type": "workspace:*"
   },
   "jest": {
     "runner": "../../jest-serial-runner.js",

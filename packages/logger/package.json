@@ -24,8 +24,8 @@
   "author": "Marc J. Schmidt <marc@marcjschmidt.de>",
   "license": "MIT",
   "peerDependencies": {
-    "@deepkit/core": "^1.0.1",
-    "@deepkit/injector": "^1.0.1"
+    "@deepkit/core": "workspace:*",
+    "@deepkit/injector": "workspace:*"
   },
   "dependencies": {
     "@types/format-util": "^1.0.1",
@@ -33,8 +33,8 @@
     "format-util": "^1.0.5"
   },
   "devDependencies": {
-    "@deepkit/core": "^1.0.5",
-    "@deepkit/injector": "^1.0.12"
+    "@deepkit/core": "workspace:*",
+    "@deepkit/injector": "workspace:*"
   },
   "jest": {
     "testEnvironment": "node",

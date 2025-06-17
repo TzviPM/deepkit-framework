@@ -26,22 +26,22 @@
     "js-xxhash": "3.0.1"
   },
   "peerDependencies": {
-    "@deepkit/bson": "^1.0.1",
-    "@deepkit/core": "^1.0.1",
-    "@deepkit/event": "^1.0.1",
-    "@deepkit/injector": "^1.0.1",
-    "@deepkit/rpc": "^1.0.1",
-    "@deepkit/type": "^1.0.1",
+    "@deepkit/bson": "workspace:*",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/event": "workspace:*",
+    "@deepkit/injector": "workspace:*",
+    "@deepkit/rpc": "workspace:*",
+    "@deepkit/type": "workspace:*",
     "rxjs": "*"
   },
   "devDependencies": {
-    "@deepkit/bson": "^1.0.12",
-    "@deepkit/core": "^1.0.5",
-    "@deepkit/core-rxjs": "^1.0.9",
-    "@deepkit/event": "^1.0.12",
-    "@deepkit/injector": "^1.0.12",
-    "@deepkit/rpc": "^1.0.12",
-    "@deepkit/type": "^1.0.12",
+    "@deepkit/bson": "workspace:*",
+    "@deepkit/core": "workspace:*",
+    "@deepkit/core-rxjs": "workspace:*",
+    "@deepkit/event": "workspace:*",
+    "@deepkit/injector": "workspace:*",
+    "@deepkit/rpc": "workspace:*",
+    "@deepkit/type": "workspace:*",
     "rxjs": "*"
   },
   "jest": {
